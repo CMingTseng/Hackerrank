@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+sourceSets {
+    main {
+        java {
+            srcDir 'inputhere'
+        }
+    }
+}
+
+dependencies {
+}
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
